@@ -1,0 +1,11 @@
+.division{
+    border-bottom: 5px solid red;
+}
+
+.proximos_jogos{
+    width: 480px;
+    color: white;
+    margin: 10px auto;
+    padding: 120px 0px;
+    font-size: 25px;
+}

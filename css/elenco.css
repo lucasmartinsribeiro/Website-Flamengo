@@ -1,0 +1,31 @@
+h1{
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.division{
+    border-bottom: 5px solid red;
+    padding-bottom: 50px;
+}
+
+.elenco{
+    color: white;
+    width: 500px;
+    margin: 10px auto;
+    text-align: left;
+    /* border: solid; */
+    font-size: 18px;
+    /* border-collapse: collapse; */
+    padding-top: 50px;
+}
+
+.elenco thead{
+    background: #fff;
+    border: solid;
+    color: black;
+}
+
+.elenco td{
+    background-color: red;
+}
