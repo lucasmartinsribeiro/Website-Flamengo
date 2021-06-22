@@ -4,7 +4,7 @@ body{
     font-family: "Fira Code", Arial, Helvetica, sans-serif;;
 }
 
-.header{
+header{
     background-color: red;
     color: white;
     border-bottom: 5px solid #fff;
@@ -12,11 +12,17 @@ body{
     padding-bottom: 10px;
 }
 
-.header h1{
-    margin: 0px;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 38px;
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: 10px auto;
+}
+
+.image{
+    height: 100px;
+    padding-top: 20px;
 }
 
 li{
@@ -39,12 +45,7 @@ a:hover{
     color: black;
 }
 
-.image{
-    height: 100px;
-    padding-top: 20px;
-}
-
-.escalacao{
+.escalation{
     text-align: center;
     color: #fff;
     padding-top: 20px;
@@ -52,7 +53,7 @@ a:hover{
     border-bottom: 5px solid #fff;
 }
 
-.noticias{
+.news{
     text-align: center;
     border-bottom: 5px solid red;
     color: #fff;
@@ -60,13 +61,22 @@ a:hover{
     padding-bottom: 30px;
 }
 
-.noticias P{
+.news p{
     padding-top: 20px;
 }
 
 .footer{
+    display: flex;
+    justify-content: space-between;
     text-align: center;
-    padding-top: 20px;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px 0;
+}
+
+.footer img{
+    width: 180px;
+    height: 180px;
     padding-bottom: 20px;
 }
 
